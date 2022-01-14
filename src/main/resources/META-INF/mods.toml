@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license="MIT"
+[[mods]]
+modId="randommob"
+version="${file.jarVersion}"
+displayName="RandomMob"
+logoFile="examplemod.png"
+credits="Inspired by AnnieBy /Annie"
+authors="ItsPayne" #optional
+description='''
+Майнкрафт, но мобы превращаются в рандомных каждую минуту.
+
+Создано на стриме 14.01.2022
+'''
+[[dependencies.randommob]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+    
+[[dependencies.randommob]]
+    modId="minecraft"
+    mandatory=true
+	versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
