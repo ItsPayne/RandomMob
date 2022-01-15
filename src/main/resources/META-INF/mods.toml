@@ -7,16 +7,16 @@ version="${file.jarVersion}"
 displayName="RandomMob"
 logoFile="examplemod.png"
 credits="Inspired by AnnieBy /Annie"
-authors="ItsPayne" #optional
+authors="ItsPayne"
 description='''
-Майнкрафт, но мобы превращаются в рандомных каждую минуту.
+РњР°Р№РЅРєСЂР°С„С‚, РЅРѕ РјРѕР±С‹ РїСЂРµРІСЂР°С‰Р°СЋС‚СЃСЏ РІ СЂР°РЅРґРѕРјРЅС‹С… РєР°Р¶РґСѓСЋ РјРёРЅСѓС‚Сѓ.
 
-Создано на стриме 14.01.2022
+РќР°РїРёСЃР°РЅ РЅР° СЃС‚СЂРёРјРµ 14.01.2022
 '''
 [[dependencies.randommob]]
     modId="forge"
     mandatory=true
-    versionRange="[39,)" #mandatory
+    versionRange="[39,)"
     ordering="NONE"
     side="BOTH"
     
